@@ -1,0 +1,145 @@
+*,
+	*:after,
+	*:before {
+		box-sizing: border-box;
+	}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Avenir,Helvetica,Arial,sans-serif;
+	animation: a .5s linear 0s 1 forwards;
+}
+a{
+	text-decoration: none;
+}
+/*-------------------------ICONS-----------------------*/
+.fa{
+	color: #fff;
+}
+.fa:hover{
+	color: #c0882c;
+	transition: 0.2s;
+}
+.container{
+   overflow: auto;
+  padding:0px;
+}
+.Livechat{
+	display: flex;flex-direction: column;
+ 	background-color: #333;
+	color: #fff;
+	padding-bottom: 10px;
+}
+.Livechat-header{
+    display: flex;
+	align-items: center;
+	position: fixed; /* Stay in place */
+  	z-index: 1; /* Sit on top */
+  	width: 100%;
+  	top: 0;
+	height: 5.2rem;
+	justify-content: space-between;
+    background-color: #060606;
+    padding: 5px 10px;
+}
+.Livechat-header span{
+	color:#c0882c;
+	font-weight: 600;
+	font-size: 19px; 
+}
+.Livechat-header i{
+	font-size: 25px; 
+	color:#c0882c;
+}
+.livechat-img{
+	width: 60px;
+}
+.livechat-img img{
+	width: 100%;
+}
+.chats{
+	margin-top: 85px;
+	color: #fff;
+	background-color: #333;
+	padding: 0px 10px 70px;
+}
+.time{
+	font-size: 12px;
+}
+.chats1{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+.chats1 .sender1{
+     margin-bottom: 5px;
+     padding: 8px;
+	 background-color: #828180;
+	 border-radius: 0px 14px 14px 14px;
+}
+.chats2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.chats2 .sender2{
+	margin-bottom: 5px;
+	padding: 8px;
+	background: linear-gradient(90deg,#c0882c,rgb(212, 167, 69))!important;
+	border-radius: 14px 14px 0px 14px;
+}
+.Livechat-text{
+	 width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+	 padding: 0px 10px 3px;
+}
+.Livechat-text form{
+	display: flex;
+	width: 100%;
+}
+.Livechat-text form input{
+	width: 100%;
+    padding: 15px 20px;
+    line-height: 10px;
+    border-radius: 36px;
+    border: none;
+    background-color: #828180;
+    outline: none;
+    color: #fff;
+    margin-right: 5px;
+    font-size: 15px;
+}
+.Livechat-text form input:focus{
+	border: none;
+}
+.Livechat-text form input::placeholder{
+	color: #e0dfdf;
+}
+.Livechat-text form button{
+    border-radius: 36px;
+    border: none;
+    background-color: #828180;
+    color: #fff;
+    padding: 15px;
+    font-size: 16px;
+    outline: none;
+}
+@media only screen and (min-width: 768px){
+	.Livechat-header{padding: 5px 40px;}
+	.livechat-img {width: 70px;}
+	.Livechat-header span {font-size: 22px;}
+}
+
+@media only screen and (max-width: 315px){
+	.Livechat-header{height: 4.2rem;}
+	.Livechat-header span {font-size: 14px;}
+	.livechat-img {width: 50px;}
+	.chats {margin-top: 65px;}
+}

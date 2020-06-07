@@ -1,0 +1,135 @@
+*,
+	*:after,
+	*:before {
+		box-sizing: border-box;
+	}
+body{
+	margin: 0;
+	padding: 0;
+	background: #0c0c0c;
+	width:100%;
+	height:100%;
+	font-family:Roboto, Avenir,Helvetica,Arial,sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.fa{
+	color: #fff;
+}
+.fa:hover{
+	color: #c0882c;
+	transition: 0.2s;
+}
+/*-------------------------DASHBOARD-----------------------*/
+.list-container{
+	display: flex;
+	display: none; 
+	flex-direction: column;
+	margin-right: 20px;
+	font-weight:600;
+}
+.list-container a{
+	color: #fff;
+	font-size: 16px;
+	display: none; 
+	padding:20px 10px;
+	margin: 15px 0px;
+}
+.list-container a:hover{
+	background: linear-gradient(90deg,#c0882c,rgb(217,174,75))!important;
+}
+#a1{
+	background: linear-gradient(90deg,#c0882c,rgb(217,174,75))!important;
+}
+.sidenav{
+	display: none; 
+	background-color:#060606;
+	width:0px; 
+	height:100%;
+	position:absolute;
+	top: 68px; 
+	flex-direction: column;
+	padding: 20px 0px 20px;
+}
+.top{
+	display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.top .div1{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background: #060606;
+}
+.top .div1 i{
+	font-size: 20px;
+}
+.top .div1 span{
+	font-size: 26px;
+	color: #c0882c;
+	font-weight: 600;
+}
+.top .div1 .nav{
+	margin-right: 30px;
+}
+.top .div1 .nav span{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 100;
+	padding: 4px 11px;
+	background-color: #c0882c;
+	cursor: pointer;
+}
+.top .div1 .nav span:hover{
+	color: #c0882c;
+	background-color: #fff;
+}
+.dashboard{
+	display: flex;
+    flex-direction: column;
+    margin:0px 20px 20px;
+    color: #fff;
+}
+.dashboard .div2{
+	margin-top:30px;
+	display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow:0px 4px 5px 0px #000;
+    border-left: 5px solid #c0882c;
+}
+.dashboard .div2 .header{
+	font-size: 18px;
+	color: #c0882c;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.dashboard .div2 span{
+	font-size: 15px;
+	color: #fff;
+	font-weight: 100;
+	line-height: 20px;
+	word-spacing: 2px;
+}
+
+@media only screen and (max-width: 500px){
+	.top .div1{padding: 20px 5px 20px 10px;}
+	.top .div1 span{ font-size: 24px;}
+	.top .div1 .nav{margin-right: 10px;}
+}
+@media only screen and (max-width: 360px){
+	.top .div1 span{font-size: 22px;}
+	.top .div1 .nav span{font-size: 12px;padding: 3px 7px;margin-left: 5px;}
+	.dashboard{margin:0px 10px 20px;}
+	.dashboard .div2{padding: 8px;}
+	.dashboard .div2 span{word-spacing: 0px;}
+}
+@media only screen and (max-width: 300px){
+	.top .div1 span{font-size: 20px;}
+}

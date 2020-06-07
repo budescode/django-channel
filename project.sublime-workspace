@@ -1,0 +1,1080 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ca",
+				"CardCategoryAdmin"
+			],
+			[
+				"au",
+				"au2"
+			],
+			[
+				"a",
+				"au1"
+			],
+			[
+				"eu",
+				"eur2"
+			],
+			[
+				"uk",
+				"uk2"
+			],
+			[
+				"us",
+				"usa2"
+			],
+			[
+				"in",
+				"inputPassword"
+			],
+			[
+				"P",
+				"Password"
+			],
+			[
+				"de",
+				"deposit"
+			],
+			[
+				"RE",
+				"Record"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"In",
+				"InvestmentsAdmin"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"ge",
+				"get_user_model"
+			],
+			[
+				"Pos",
+				"UserProfileSerializer"
+			],
+			[
+				"s",
+				"serializers"
+			],
+			[
+				"f",
+				"fullname"
+			],
+			[
+				"Ed",
+				"EditUserSerializer"
+			],
+			[
+				"u",
+				"user"
+			],
+			[
+				"c",
+				"chassis_number"
+			],
+			[
+				"e",
+				"engine_number"
+			],
+			[
+				"Pa",
+				"PasswordCode"
+			],
+			[
+				"acc",
+				"acc_users"
+			],
+			[
+				"ma",
+				"margin-top\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"prop",
+				"properties"
+			],
+			[
+				"fonts",
+				"font-size\tproperty"
+			],
+			[
+				"i",
+				"import"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"bordr",
+				"border-radius\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"mae",
+				"margin-left\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"the",
+				"theu"
+			],
+			[
+				"get",
+				"get_user_model"
+			],
+			[
+				"l",
+				"label\tTag"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"fl",
+				"flex\tproperty"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"w",
+				"weight"
+			],
+			[
+				"li",
+				"lielem"
+			],
+			[
+				"sor",
+				"sortedArray"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"GET",
+				"get"
+			],
+			[
+				"todo",
+				"todoList"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"pi",
+				"publishedAt"
+			],
+			[
+				"ne",
+				"newslist"
+			],
+			[
+				"admi",
+				"adminsalon"
+			],
+			[
+				"mo",
+				"models"
+			],
+			[
+				"Comed",
+				"ComedyLocation"
+			],
+			[
+				"CO",
+				"ComedyLocation"
+			],
+			[
+				"F",
+				"ForeignKey"
+			],
+			[
+				"Come",
+				"ComedysLocation"
+			],
+			[
+				"v",
+				"venue"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"ad",
+				"admincomedy"
+			],
+			[
+				"VendorC",
+				"VendorCinema"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"cine",
+				"cinema"
+			],
+			[
+				"admin",
+				"admincinema"
+			],
+			[
+				"sa",
+				"salon_detail"
+			],
+			[
+				"o",
+				"on_delete"
+			],
+			[
+				"M",
+				"Menu"
+			],
+			[
+				"Sa",
+				"SalonDetail"
+			],
+			[
+				"loca",
+				"location_name"
+			],
+			[
+				"S",
+				"Salon"
+			],
+			[
+				"Get",
+				"get_object_or_404"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"V",
+				"VendorCinemaAdmin"
+			],
+			[
+				"Cin",
+				"Cinemas"
+			],
+			[
+				"ph",
+				"recipient_phonenumber"
+			],
+			[
+				"rec",
+				"recipient_name"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"mea",
+				"meal"
+			],
+			[
+				"Us",
+				"UserMeal"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"meal",
+				"meal_list"
+			],
+			[
+				"m",
+				"meal"
+			],
+			[
+				"res",
+				"restaurant1"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"rq",
+				"request"
+			],
+			[
+				"col",
+				"col-sm-3"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"Re",
+				"RemoveElem"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"crea",
+				"createTextNode"
+			],
+			[
+				"inp",
+				"InputChange"
+			],
+			[
+				"sea",
+				"searchinput"
+			],
+			[
+				"sear",
+				"searchitem"
+			],
+			[
+				"app",
+				"appendChild"
+			],
+			[
+				"tet",
+				"testnode"
+			],
+			[
+				"append",
+				"appendChild"
+			],
+			[
+				"span",
+				"spanelement"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"form",
+				"form-check"
+			],
+			[
+				"ove",
+				"overflow-y"
+			],
+			[
+				"ov",
+				"overflow-x"
+			],
+			[
+				"A",
+				"Any"
+			],
+			[
+				"proper",
+				"Property"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"border-bo",
+				"border-bottom-color"
+			],
+			[
+				"magin",
+				"margin-top"
+			],
+			[
+				"con",
+				"container-fluid"
+			],
+			[
+				"formr",
+				"form-control"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"border-top",
+				"border-top-color"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"po",
+				"Postcode"
+			],
+			[
+				"su",
+				"suburb_list"
+			],
+			[
+				"selects",
+				"selectpostcode"
+			],
+			[
+				"new",
+				"new_postal_list"
+			],
+			[
+				"pos",
+				"postal_list"
+			],
+			[
+				"post",
+				"postal_list"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/cfehome/settings.py",
+			"settings":
+			{
+				"buffer_size": 3206,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/chat/views.py",
+			"settings":
+			{
+				"buffer_size": 1771,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/cfehome/routing.py",
+			"settings":
+			{
+				"buffer_size": 147,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/cfehome/asgi.py",
+			"settings":
+			{
+				"buffer_size": 201,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/chat/consumers.py",
+			"settings":
+			{
+				"buffer_size": 459,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "mark",
+		"selected_items":
+		[
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"",
+				"Convert Case: Lower Case"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 50.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/BUDESCODE/Documents/coding/django channel/channels-rapid",
+		"/C/Users/BUDESCODE/Documents/coding/django channel/channels-rapid/src",
+		"/C/Users/BUDESCODE/Documents/coding/django channel/channels-rapid/src/cfehome",
+		"/C/Users/BUDESCODE/Documents/coding/django channel/channels-rapid/src/chat"
+	],
+	"file_history":
+	[
+		"/C/Users/BUDESCODE/Documents/coding/projects/TYP/project/project/wsgi.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Goldenxchange/GoldenXchange/project/templates/index/index2.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Goldenxchange/GoldenXchange/project/static/js/index1.js",
+		"/C/Users/BUDESCODE/Desktop/test.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Goldenxchange/GoldenXchange/project/static/js/index.js",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Goldenxchange/GoldenXchange/project/static/css/dashboard.css",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/PROJECT/atreat4u2/atreat4u/templates/account/profile.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Lendly/project/acc_users/api/serializers.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Lendly/project/acc_users/api/views.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Jamb360/desktop/project/package.json",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Jamb360/desktop/myproject/package.json",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Project Checkstolen/checkstolendjango/acc_users/api/serializers.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Lendly/project/templates/account/change_password_email.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Lendly/project/acc_users/api/urls.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Lendly/project/acc_users/admin.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Lendly/project/acc_users/models.py",
+		"/C/Users/BUDESCODE/Desktop/UI/project/css/style.css",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Project Checkstolen/checkstolendjango/post/models.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Project Checkstolen/checkstolendjango/acc_users/admin.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Project Checkstolen/checkstolendjango/acc_users/api/views.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/New folder/django/realestate-api/index/urls.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/New folder/django/realestate-api/index/models.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Miriam/project/ecommerce/templates/base.html",
+		"/C/Users/BUDESCODE/Desktop/UI/p1/home.html",
+		"/C/Users/BUDESCODE/Desktop/UI/style.css",
+		"/C/Users/BUDESCODE/Desktop/UI/project/index.html",
+		"/C/Users/BUDESCODE/Desktop/UI/home.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Mess/mproject/acc_users/api/serializers.py",
+		"/C/Users/BUDESCODE/Desktop/test.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Lendly/project/acc_users/migrations/0002_auto_20200418_1941.py",
+		"/C/Users/BUDESCODE/Desktop/UI/index.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Project Checkstolen/checkstolenangular/src/style.css",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Project Checkstolen/checkstolenangular/src/styles.css",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Project Checkstolen/checkstolenangular/node_modules/bootstrap/dist/css/bootstrap.min.css",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Project Checkstolen/index.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/CRYPTO/cryptocurrency/index.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/administrator/views.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Stanlee guy/project/acc_users/api/serializers.py",
+		"/C/Users/BUDESCODE/Documents/test.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/school/project/index/forms.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/btc/atreat4u/templates/pricing.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/btc/atreat4u/templates/about.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Jamb360/desktop/mproject/package.json",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Jamb360/desktop/project/src/index.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Jamb360/desktop/project/src/electron-starter.js",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Jamb360/desktop/project/tsconfig.json",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Jamb360/desktop/electron.txt",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Jamb360/desktop/project/www/index.html",
+		"/C/Users/BUDESCODE/Documents/todo-skeleton-publish/index.js",
+		"/C/Users/BUDESCODE/Documents/todo-skeleton-publish/index.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/school/project/project/urls.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/school/project/administrator/views.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/school/project/index/views.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Bank/tabs/project/config.xml",
+		"/C/Users/BUDESCODE/Documents/coding/projects/ionic restaurant/sidebar/project/config.xml",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/PROJECT/atreat4u2/atreat4u/cart/models.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/PROJECT/atreat4u2/atreat4u/order/models.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/PROJECT/atreat4u2/atreat4u/order/views.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/PROJECT/atreat4u2/atreat4u/cart/admin.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/PROJECT/atreat4u2/atreat4u/templates/order/order.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/PROJECT/atreat4u2/atreat4u/order/urls.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/PROJECT/atreat4u2/atreat4u/templates/order/order_details.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/PROJECT/atreat4u2/atreat4u/templates/adminrestaurant/sidebar.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/PROJECT/atreat4u2/atreat4u/adminrestaurant/urls.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/PROJECT/atreat4u2/atreat4u/account/models.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/PROJECT/atreat4u2/atreat4u/atreat4u/settings.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/PROJECT/atreat4u2/atreat4u/templates/administrator/sidebar.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Jamb360/jb app/update_db.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Jamb360/jb app/scrape2.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/atreat4u/atreat4u/account/views.py",
+		"/C/Users/BUDESCODE/Downloads/templates/Dashboard/templates/Responsive-Admin-Panel-Bootstrap-Template-Free-Download/bower_components/bootstrap/dist/css/bootstrap.css",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/index.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/Penwright/css/bootstrap.min.css",
+		"/C/Users/BUDESCODE/Documents/coding/projects/SCHOOL-AUTO-CBT/my project/package.json",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/templates/index.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/index/urls.py",
+		"/C/Users/BUDESCODE/Documents/coding/bootstrap-autocomplete-master/src/index4.html",
+		"/C/Users/BUDESCODE/Documents/coding/bootstrap-autocomplete-master/src/testdata/test-select-simple.json",
+		"/C/Users/BUDESCODE/Documents/coding/bootstrap-autocomplete-master/src/testdata/test-list.json",
+		"/C/Users/BUDESCODE/Documents/coding/bootstrap-autocomplete-master/src/testdata/test-empty.json",
+		"/C/Users/BUDESCODE/Documents/coding/bootstrap-autocomplete-master/src/testdata/test-dict.json",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/project/settings.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/templates/upload_csv.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/index/views.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/templates/editpost.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/templates/Administrator/sidebar.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/templates/Administrator/base.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/static/administrator/css/style.css",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/index/models.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/project/processors.py",
+		"/C/Users/BUDESCODE/Downloads/templates/Dashboard/Dashio/basic_table.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/templates/base.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/Login_v1/index.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/index/migrations/0005_auto_20190520_0725.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/index/migrations/0006_auto_20190520_0844.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/index/migrations/__init__.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/Myproject/project/index/forms.py",
+		"/C/Users/BUDESCODE/Documents/coding/electron/my project/data.json",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/project/index/urls.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/project/index/views.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/project/account/views.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/project/templates/contact.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/project/templates/blog.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/project/account/models.py",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/project/templates/account/register.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/project/templates/account/login.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/project/templates/account/logout.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/project/templates/about.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/project/templates/base.html",
+		"/C/Users/BUDESCODE/Documents/coding/projects/real estate/project/templates/index.html",
+		"/C/Users/BUDESCODE/Documents/coding/pc-cleaner/package.json",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/atreat4u/atreat4u/static/home/styles/main_styles.css",
+		"/C/Users/BUDESCODE/Documents/coding/projects/atreat4u project/atreat4u/atreat4u/static/css/bootstrap.min.css",
+		"/C/Users/BUDESCODE/Untitled.ipynb",
+		"/C/Users/BUDESCODE/Documents/coding/projects/MyIonicProject/src/index.html",
+		"/C/Users/omonbude/Documents/coding/project/jb app/chuka/update_db.py",
+		"/C/Users/omonbude/Documents/coding/project/u-driller/update_db.py",
+		"/C/Users/omonbude/Documents/coding/project/unisales/project/website/post/api/request_post_form.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/account/views.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/catalog/views.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/templates/base.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/templates/rough5.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/templates/businessdetail.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/templates/rough3.html",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/account/urls.py",
+		"/C/Users/omonbude/Documents/coding/project/jb app/project2.py",
+		"/C/Users/omonbude/Documents/coding/project/jb app/project.py",
+		"/C/Users/omonbude/Documents/coding/project/a treat/atreat4u/atreat4u/catalog/models.py"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/cfehome/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1571,
+								1571
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/chat/views.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/cfehome/routing.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/cfehome/asgi.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/chat/consumers.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								459,
+								459
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 345.0
+	},
+	"output.find_results":
+	{
+		"height": 508.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"1",
+				"acc_users\\migrations\\0002_auto_20200418_1941.py"
+			],
+			[
+				"x",
+				"C:\\Users\\BUDESCODE\\Desktop\\UI\\project\\index.html"
+			],
+			[
+				"",
+				"project\\templates\\account\\category.html"
+			],
+			[
+				"email",
+				"templates/team/email_instructions.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

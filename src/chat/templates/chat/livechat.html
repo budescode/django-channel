@@ -1,0 +1,144 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+	<title>GoldenXchange Livechat</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/livechat.css' %}">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="Livechat">
+			<div class="Livechat-header">
+				<div class="livechat-img">
+						<img src="{% static 'images/GOLDEX.png' %}">
+				</div>
+				<span>Welcome to LiveChat</span>
+				<span id='other_user'>{% if user != object.first %}{{ object.first }}{% else %}{{ object.second }}{% endif %}</span>
+				<i class="fa fa-times-circle"></i>
+			</div>
+
+
+			<div class="chats" id='thechats'>
+				{% for chat in object.chatmessage_set.all %}
+				{% if chat.user == user %}
+				<div class="chats1">
+					<div class="sender1">
+						<span>{{ chat.message }}</span>
+					</div>
+					<span class="time">{{ chat.timestamp|date:'Y-m-d H:i' }}</span> 
+				</div>
+				{% else %}
+				<div class="chats2">
+					<div class="sender2">
+						<span>{{ chat.message }}</span>
+					</div>
+					<span class="time">{{ chat.timestamp|date:'Y-m-d H:i' }}</span>
+				</div>
+				{% endif %}
+				{% endfor %}
+
+			</div>
+			<div class="Livechat-text">
+
+			<!-- 	<form id='form' method='POST'> {% csrf_token %}
+				<input type="hidden" id="myUsername" value='{{ user.username }}'>
+				{{form.as_p }}
+				<input type='submit' class='btn btn-primary'/>
+				</form> -->
+
+				<form id='form' method='POST'> {% csrf_token %}
+					<input type="hidden" id="myUsername" value='{{ user.username }}'>
+					<input type="text" name="message" placeholder="Type a message" id='id_message'>
+					<button type="submit"><i class="fa fa-paper-plane"></i></button>
+				</form>
+			</div>
+		</div>
+	</div>
+<script src="{% static 'jquery/dist/jquery.min.js' %}"></script>
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script> -->
+<script src="{% static 'bootstrap/dist/js/bootstrap.min.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reconnecting-websocket/1.0.0/reconnecting-websocket.min.js"></script>
+<script>
+// websocket scripts
+var loc = window.location
+var formData = $("#form")
+var theother_user = document.querySelector('#other_user').innerHTML
+var msgInput = $("#id_message")
+var allchats = $("#thechats")
+var chatHolder = $("#chat-items")
+var me = $("#myUsername").val()
+
+
+var wsStart = 'ws://'
+if(loc.protocol == 'https:'){
+	wsStart = 'wss://'
+}
+var endpoint = wsStart + loc.host + loc.pathname
+var socket = new ReconnectingWebSocket(endpoint)
+socket.onmessage = function(e){
+
+	console.log("message", e)
+	var chatDataMsg = JSON.parse(e.data)
+	//meaning this is from the other user
+	if(chatDataMsg.username == theother_user){
+		console.log('yeahhh')
+		var div1 = document.createElement('div')
+		div1.className = 'chats2'
+		var span1 = document.createElement('span')
+		span1.innerHTML = chatDataMsg.message
+		var div2 = document.createElement('div')
+		div2.className = 'sender2'
+		var span2 = document.createElement('span')
+		span2.innerHTML = chatDataMsg.time
+		span2.className = 'time'
+		div1.appendChild(div2)
+		div2.appendChild(span1)
+		div1.appendChild(span2)
+		document.querySelector('#thechats').appendChild(div1)
+// chatHolder.append('<li style="color:blue">' + chatDataMsg.message + ' via ' + ' '  + chatDataMsg.username  + "</li>")
+	} else{
+		console.log('yeahhh')
+		var div1 = document.createElement('div')
+		div1.className = 'chats1'
+		var span1 = document.createElement('span')
+		span1.innerHTML = chatDataMsg.message
+		var div2 = document.createElement('div')
+		div2.className = 'sender1'
+		var span2 = document.createElement('span')
+		span2.innerHTML = chatDataMsg.time
+		span2.className = 'time'
+		div1.appendChild(div2)
+		div2.appendChild(span1)
+		div1.appendChild(span2)
+		document.querySelector('#thechats').appendChild(div1)
+		// chatHolder.append('<li>' + chatDataMsg.message + ' via ' + ' '  + chatDataMsg.username  + "</li>")
+	}
+	
+	
+}
+socket.onopen = function(e){
+	console.log("open", e)
+	formData.submit(function(event){
+		event.preventDefault()
+		var msgText = msgInput.val()
+		// chatHolder.append("<li>" + ' ' + msgText + ' ' + 'via' + ' ' + me + '</li>')
+		var finalData = {"message":msgText}
+
+		socket.send(JSON.stringify(finalData))
+		formData[0].reset()
+	})
+}
+socket.onerror = function(e){
+	console.log("error", e)
+}
+socket.onclose = function(e){
+	console.log("close", e)
+}
+
+</script>
+</body>
+</html>

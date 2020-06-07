@@ -1,0 +1,73 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, intial-scale=1">
+		<title>Golden Exchange</title>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/dashboard.css' %}">
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="sidenav" id="sidenav">
+			<div id="list-container" class="list-container">
+					<a id="a1" href="{% url 'appindex:index' %}">Home</a>
+					<a id="a1" href="{% url 'dashboard:dashboard' %}">Dashboard</a>
+					<a id="list1" href="#">Gift Card Trade</a>
+					<a id="list2" href="index1.html">Bitcoin Trade</a>
+					<a id="list3" href="#">TradeEvents	</a>
+					<a id="list4" href="#">About Us</a>
+			</div>
+		</div>
+		
+		<div class="top">
+			<div class="div1">
+			<i id="openbtn" class="fa fa-bars"></i>
+				<i class="fa fa-times-circle" id="closebtn"></i>
+					<span>{{request.user.username}}</span>
+					<div class="nav">
+						<a href="{% url 'accountusers:logout' %}"><span>Signout</span></a>
+					</div>
+			
+			</div>
+			<div class="dashboard">
+	
+				<div class="div2">
+					<span class="header">My Details</span>
+					<span>Email: {{request.user.email}}</span>
+				</div>
+
+			
+		</div>
+		<script type="text/javascript">
+			var openbtn = document.getElementById('openbtn')
+			var closebtn = document.getElementById('closebtn')
+			var sidenav = document.getElementById('sidenav')
+			var list = document.getElementById('list-container')
+			var list1 = document.getElementById('list1')
+			var list2 = document.getElementById('list2')
+			var list3 = document.getElementById('list3')
+			var list4 = document.getElementById('list4')
+			var a1 = document.getElementById('a1')
+			closebtn.style.display = 'none'
+			openbtn.addEventListener('click', function(){
+				list.style.display = 'block'
+				list1.style.display = 'block'
+				list2.style.display = 'block'
+				list3.style.display = 'block'
+				list4.style.display = 'block'
+				a1.style.display = 'block'
+				sidenav.style.display = 'block'
+				sidenav.style.width = '250px'
+				closebtn.style.display = 'block'
+				openbtn.style.display = 'none'
+			})
+			closebtn.addEventListener('click', function(){
+				sidenav.style.display = 'none'
+				openbtn.style.display = 'block'
+				closebtn.style.display = 'none'
+			})
+		</script>
+	</body>
+</html>

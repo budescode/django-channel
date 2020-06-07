@@ -1,0 +1,314 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+	<title>Golden Exchange</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="home">
+		<div id="header" class="header-container">
+			<div class="header">
+				<div class="img">
+					<img src="{% static 'images/GOLDEX.png' %}">
+				</div>
+				<div id="sidenav" class="sidenav">
+					<div id="list-container" class="list-container">
+						<div id="list1" class="list">
+							<a href="#">Gift Card Trade
+							</a>
+						</div>
+						<div id="list2" class="list">
+							<a href="index1.html">Bitcoin Trade</a>
+						</div>
+						<div id="list3" class="list">
+							<a href="#">TradeEvents	</a>
+						</div>
+						<div id="list4" class="list">
+							<a href="#">About Us</a>
+						</div>
+					</div>
+					{% if request.user.is_authenticated %}
+					<div id="nav" class="nav">
+						<div class="main-nav">
+							<a id="a1" href="{% url 'dashboard:dashboard' %}">Dashboard</a>
+						</div>
+					</div>
+					{% endif %}
+				</div>
+		
+				{% if request.user.is_authenticated %}
+				<div class="login">
+				<a href="{% url 'accountusers:logout' %}"><span class="sign-in">Sign out</span></a>
+				</div>
+
+				<div style="display: none;">					
+				<div class="login">
+				<span class="sign-in" id="signIn">Sign In</span>
+				<span id="signUp" class="sign-up">Sign Up</span>
+				</div>
+				</div>
+				{% else %}								
+				<div class="login">
+					<span class="sign-in" id="signIn">Sign In</span>
+					<span id="signUp" class="sign-up">Sign Up</span>
+				</div>
+				{% endif %}
+				
+
+				<div ><a id="openbtn" href="#"><i class="fa fa-bars"></i></a></div>
+				<a href="#" id="closebtn">&times</a>
+			</div>
+		</div>
+
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+			  <img src="{% static 'images/img_nature_wide.jpg' %}" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="{% static 'images/img_snow_wide.jpg' %}" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="{% static 'images/img_mountains_wide.jpg' %}" style="width:100%">
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+
+			<div class="main">
+				<div class="box">
+					<div class="top">
+						<a href="#" class="active">Gift Card Trade</a>
+						<a href="index1.html" class="not-active">Bitcoin Trade</a>
+					</div>
+				</div>
+
+				<div class="cards-content-container">
+					<div class="cards-content">
+
+
+{% for i in qs %}
+						<div class="cards">
+							<h2>{{i.name}}</h2>
+							<div class="cardssss">
+								<div class="cards-header-top">
+									<a class="top-active" id="usahead{{i.id}}" onclick="changeCard('usa','{{i.id}}')">
+										<img src="{% static 'images/usa.png' %}">
+										<span>USA</span>
+									</a>
+									<a class="top-not-active" id="ukhead{{i.id}}" onclick="changeCard('uk', '{{i.id}}')">
+										<img src="{% static 'images/uk1.jpg' %}">
+										<span>UK</span>
+									</a>
+									<a  class="top-not-active" id="eurhead{{i.id}}" onclick="changeCard('eur','{{i.id}}')">
+										<img src="{% static 'images/eu1.png' %}">
+										<span>EUR</span>
+									</a>
+									<a  class="top-not-active" id="auhead{{i.id}}" onclick="changeCard('au','{{i.id}}')">
+										<img src="{% static 'images/au.jpg' %}">
+										<span>AU</span>
+									</a>
+									<a  class="top-not-active" id="cadhead{{i.id}}" onclick="changeCard('cad','{{i.id}}')">
+										<img src="{% static 'images/cad.jpg' %}">
+										<span>CAD</span>
+									</a>
+								</div>
+								<div class="cards-main">
+									<p>Steam Gift Card Trading</p>
+									<div class="cards-div">
+										<div class="cards-main-div">
+											<div class="cards-img"><img src="{% static 'images/steam.jpg' %}"></div>
+											<div class="cards-trade">
+												<div class="trade-price" id="usaprice{{i.id}}">
+													<span>$ {{i.usad1}} = ₦ {{i.usan1}}</span><br><br>
+													<span>$ {{i.usad2}} = ₦ {{i.usan2}}</span>
+												</div>						
+
+												<div class="trade-price" id="ukprice{{i.id}}" style="display: none;">
+													<span>$ {{i.ukd1}} = ₦ {{i.ukn1}}</span><br><br>
+													<span>$ {{i.ukd2}} = ₦ {{i.ukn2}}</span>
+												</div>
+												<div class="trade-price" id="eurprice{{i.id}}" style="display: none;">
+													<span>$ {{i.eurd1}} = ₦ {{i.eurn1}}</span><br><br>
+													<span>$ {{i.eurd2}} = ₦ {{i.eurn2}}</span>
+												</div>
+												<div class="trade-price" id="auprice{{i.id}}" style="display: none;">
+													<span>$ {{i.aud1}} = ₦ {{i.aun1}}</span><br><br>
+													<span>$ {{i.aud2}} = ₦ {{i.aun2}}</span>
+												</div>
+												<div class="trade-price" id="cadprice{{i.id}}" style="display: none;">
+													<span>$ {{i.cadd1}} = ₦ {{i.cadn1}}</span><br><br>
+													<span>$ {{i.cadd2}} = ₦ {{i.cadn2}}</span>
+												</div>
+											</div>
+										</div>
+										<div class="trade-note">
+													<span>Note:</span>
+													<span>-We accept $20 - $200 Steam Cards</span>
+													<span>-We accept Ecodes, click Go Trading to ask price</span>
+													<span>-If $100 0r $50 click Go Trading and upload card</span>
+													<span>-If not $100 0r $50 click Go Trading and ask price before uploading card</span>
+										</div>
+									</div>
+									<div class="trade"><button class="trade-btn">Go Trading</button></div>
+								</div>
+							</div>
+						</div>
+{% endfor %}
+
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="modal" id="modal">
+				<div class="login-page-container">
+					<div class="login-page" id="login-page">
+					<i class="fa fa-times-circle" id="signInPageClosebtn"></i>	
+						<h2>SIGN IN</h2>
+						<h5 style="color: red; display: none;" id="signinerrordiv"></h5>
+						<form> 
+							<div class="container">
+								<i class="fa fa-user"></i>
+								<input type="email" name="email" id="signinemail" placeholder="Enter username">
+							</div>
+							<div class="container">
+								<i class="fa fa-lock"></i>
+								<input type="Password" name="Password" id="signinpassword" placeholder="Enter Password">
+							</div>
+							<div class="container1">
+								<button type="button" onclick="SignInFunction()" id="signinbutton">Sign In</button>
+								<button type="button" id='signinhead1' style="display: none;">Loading...</button>
+								<span><a href="#">forgot password?</a></span>
+								<span>Don't have an account? <span id="signUp" class="sign-up">Sign Up</span></span>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+
+	<div class="modal" id="signUpModal">
+				<div class="login-page-container">
+					<div class="login-page" id="login-page">
+					<i class="fa fa-times-circle" id="signUpPageClosebtn"></i>	
+						<h2>SIGN UP</h2>
+						<h5 style="color: red; display: none;" id="errordiv"></h5>
+						<form> {% csrf_token %}
+							<div class="container">
+								<i class="fa fa-user"></i>
+								<input type="email" name="email" placeholder="Enter username" id='signupemail'>
+							</div>
+							<div class="container">
+								<i class="fa fa-lock"></i>
+								<input type="Password" name="Password" placeholder="Enter Password" id='signuppassword'>
+							</div>
+					
+			<div class="container">
+								<i class="fa fa-lock"></i>
+								<input type="Password" name="Password" placeholder="Confirm Password" id='signupconfirmpassword'>
+							</div>		
+							<div class="container1">
+
+								<button onclick="signupFunction()" type="button" id='registerhead'>Sign Up</button>
+								<button type="button" id='registerhead1' style="display: none;">Loading...</button>
+
+								<span><a href="#">forgot password?</a></span>
+								<span>Already have an account? <a href="#">Sign In</a></span>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+			<div class="whyChoose">
+				<h2>Why Choose GoldenXchange?</h2>
+				<div class="whyChoose-content">
+					<div class="reason">
+						<div class="reason-img">
+							<img src="{% static 'images/OB81YC0.jpg' %}">
+						</div>
+						<div class="reason-text">
+							<span class="reason-header">Efficient</span>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</span>
+						</div>
+					</div>
+					<div class="reason">
+						<div class="reason-img">
+							<img src="{% static 'images/15394.jpg' %}">
+						</div>
+						<div class="reason-text">
+							<span class="reason-header">Reliabe</span>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</span>
+						</div>
+					</div>
+					<div class="reason">
+						<div class="reason-img">
+							<img src="{% static 'images/185.jpg' %}">
+						</div>
+						<div class="reason-text">
+							<span class="reason-header">Convinient</span>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+
+	
+	<footer>
+		<div class="footer-img">
+				<img src="{% static 'images/GOLDEX.png' %}">
+			</div>
+		<div class="footer-container">
+			<div class="footer-text">
+				<div class="footer-div">
+					<a href="#">About Us</a>
+				</div>
+				<div class="footer-div">
+					<a href="#">Contact Us</a>
+				</div>
+				<div class="footer-div">
+					<a href="#">Terms and Conditions</a>
+				</div>
+			</div>
+		</div>
+		<div class="social-media">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-envelope"></i></a>
+						<a href="#"><i class="fa fa-whatsapp"></i></a>
+					</div>
+		<p>&copy GoldenXchange 2020. All Rights Reserved</p>
+	</footer>
+
+
+
+	<script src="{% static 'js/index.js' %}"></script>
+	<script type='text/javascript'>
+window.__lo_site_id = 216399;
+
+	(function() {
+		var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
+		wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+	  })();
+	</script>
+</body>
+</html>

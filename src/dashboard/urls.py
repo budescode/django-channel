@@ -1,0 +1,9 @@
+from django.contrib.auth import views
+from . import views
+from django.urls import path
+
+
+app_name = "dashboard"
+urlpatterns = [
+	path('', views.userDashboard, name='dashboard'),
+	]
