@@ -8,6 +8,7 @@ https://docs.djangoproject.com/en/2.0/topics/settings/
 
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.0/ref/settings/
+https://data.heroku.com/datastores/2191e023-7cc5-4dc0-b058-5396a8951330#
 """
 
 import os
@@ -135,8 +136,8 @@ CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
-            "hosts": [("localhost", 6379)],
-            #"hosts":[os.environ.get('REDIS_URL', 'redis://localhost:6379')],
+            #"hosts": [("ec2-34-237-94-166.compute-1.amazonaws.com", 22239)],
+            "hosts": [("redis://h:p3d7f2c6772a3b29ac312df6af360a16e44067fe07f9383719e840f7dbfccbd30@ec2-34-237-94-166.compute-1.amazonaws.com:22239")],
         },
     },
 }
