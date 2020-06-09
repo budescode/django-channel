@@ -78,6 +78,7 @@ if(loc.protocol == 'https:'){
 	wsStart = 'wss://'
 }
 var endpoint = wsStart + loc.host + loc.pathname
+console.log('endpoint os', endpoint)
 var socket = new ReconnectingWebSocket(endpoint)
 socket.onmessage = function(e){
 
